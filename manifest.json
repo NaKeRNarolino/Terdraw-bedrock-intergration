@@ -1,0 +1,58 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Terdraw intergration",
+        "description": "Terdraw intergration",
+        "min_engine_version": [
+            1,
+            19,
+            60
+        ],
+        "uuid": "3a03943b-1c87-44ef-869b-982004bda6b2",
+        "version": [
+            0,
+            0,
+            1
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "2538c27a-1a43-49ad-a7df-25be83284141",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "4477d450-844c-41a1-81e7-b9e08057fa43",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "5f70cc0d-dafd-47b2-922d-f4801e4c3813",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.12.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}
